@@ -87,7 +87,7 @@ public class CheckoutService {
     }
 
     private void showReceipt(List<Cart> items, long total, PaymentMethod paymentMethod) {
-        System.out.println("\n========== STRUK ==========");
+        System.out.println("\n========== RECEIPT ==========");
         printOrderItems(items);
         System.out.println("------------------------------------");
         System.out.printf("Total pembayaran: Rp.%,d%n", total);
